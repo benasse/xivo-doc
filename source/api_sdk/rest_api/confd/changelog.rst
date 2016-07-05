@@ -4,6 +4,14 @@
 xivo-confd REST API changelog
 *****************************
 
+16.09
+=====
+
+* A new API for updating all user's funckeys (delete funckey if undefined)
+
+  * PUT ``/1.1/users/<user_id>/funckeys``
+
+
 16.06
 =====
 
